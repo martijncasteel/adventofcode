@@ -27,7 +27,6 @@ def process(line):
 with open('input', 'r') as file:
   for line in file:
     process(line.strip())
-  process(line.strip())
 
 
 # count the number of bags a gold bag has

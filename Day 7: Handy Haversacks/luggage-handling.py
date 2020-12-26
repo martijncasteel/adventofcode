@@ -21,7 +21,6 @@ def process(line):
 with open('input', 'r') as file:
   for line in file:
     process(line.strip())
-  process(line.strip())
 
 
 # use bags to find possible bags to find a shiny gold bag
