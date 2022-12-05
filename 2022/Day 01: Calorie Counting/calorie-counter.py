@@ -3,7 +3,7 @@ current_calories = 0
 
 calories = []
 
-with open('input', 'r') as file:
+with open('input.txt', 'r') as file:
   for line in file:
     if line.strip() == '':
       # if current elf has more calores, store it
